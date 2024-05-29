@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22685"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="kc0-V7-BJW">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KlU-eK-Mhq">
+                                <rect key="frame" x="50" y="402.66666666666669" width="293" height="71.666666666666686"/>
+                                <string key="text">Trinity Wizard
+Mobile App Test</string>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="by Siti Norain bt. Ishak" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vM6-om-VbN">
+                                <rect key="frame" x="30" y="783.66666666666663" width="333" height="14.333333333333371"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="ezO-0K-sbH"/>
+                        <color key="backgroundColor" red="0.0" green="0.46666666666666667" blue="0.71372549019607845" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="ezO-0K-sbH" firstAttribute="trailing" secondItem="vM6-om-VbN" secondAttribute="trailing" constant="30" id="BVA-aZ-5hK"/>
+                            <constraint firstItem="ezO-0K-sbH" firstAttribute="bottom" secondItem="vM6-om-VbN" secondAttribute="bottom" constant="20" id="E8q-O2-y2c"/>
+                            <constraint firstItem="KlU-eK-Mhq" firstAttribute="leading" secondItem="ezO-0K-sbH" secondAttribute="leading" constant="50" id="Ljt-N7-wL8"/>
+                            <constraint firstItem="ezO-0K-sbH" firstAttribute="trailing" secondItem="KlU-eK-Mhq" secondAttribute="trailing" constant="50" id="S21-y4-pHR"/>
+                            <constraint firstItem="vM6-om-VbN" firstAttribute="leading" secondItem="ezO-0K-sbH" secondAttribute="leading" constant="30" id="ocH-H0-Vli"/>
+                            <constraint firstItem="KlU-eK-Mhq" firstAttribute="centerY" secondItem="ezO-0K-sbH" secondAttribute="centerY" id="sBz-NH-6Y8"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="53" y="375"/>
+        </scene>
+    </scenes>
+</document>
